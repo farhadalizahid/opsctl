@@ -1,0 +1,5 @@
+opsctl --version
+opsctl status
+opsctl deploy --app myapp --env dev
+opsctl config set api_endpoint https://api.example.com
+opsctl config get api_endpoint
